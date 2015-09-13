@@ -14,7 +14,10 @@ class User < ActiveRecord::Base
 
   has_many :ownerships , foreign_key: "user_id", dependent: :destroy
   has_many :items ,through: :ownerships
-
+  has_many :wants, class_name: "Want", foreign_key: "user_id", dependent: :destroy
+  has_many :want_items , through: :wants, source: :item
+  has_many :haves, class_name: "Have", foreign_key: "user_id", dependent: :destroy
+  has_many :have_items , through: :haves, source: :item
 
   # 他のユーザーをフォローする
   def follow(other_user)
@@ -39,12 +42,19 @@ class User < ActiveRecord::Base
   def have?(item)
   end
 
+  # アイテムをwantする
   def want(item)
+    ownerships.creat(item_id: item.id)
   end
 
+  # アイテムをunwantする
   def unwant(item)
+    ownerships.find_by(item_id: item.id).destroy
   end
 
+  # あるアイテムをwantしているかどうか？
   def want?(item)
+    want_items.include?(item)
   end
+
 end
