@@ -32,24 +32,29 @@ class User < ActiveRecord::Base
     following_users.include?(other_user)
   end
 
-  ## TODO 実装
+  # アイテムをhaveする
   def have(item)
+    haves.creat(item_id: item.id)
   end
 
+  # アイテムをunhaveする
   def unhave(item)
+    haves.find_by(item_id: item.id).destroy
   end
 
+  # あるアイテムをhaveしているかどうか？
   def have?(item)
+    have_items.include?(item)
   end
 
   # アイテムをwantする
   def want(item)
-    ownerships.creat(item_id: item.id)
+    wants.creat(item_id: item.id)
   end
 
   # アイテムをunwantする
   def unwant(item)
-    ownerships.find_by(item_id: item.id).destroy
+    wants.find_by(item_id: item.id).destroy
   end
 
   # あるアイテムをwantしているかどうか？

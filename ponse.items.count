@@ -1,0 +1,1215 @@
+=> [32m#<Amazon::Ecs::Response:0x00000004738670[0m
+ @doc[32m=[0m
+  [1;34m#(Document:0x239c25c {[0m
+    name = [31m[1;31m"[0m[31mdocument[1;31m"[0m[31m[0m,
+    children = [
+      [1;34m#(Element:0x23983dc {[0m
+        name = [31m[1;31m"[0m[31mItemSearchResponse[1;31m"[0m[31m[0m,
+        children = [
+          [1;34m#(Element:0x239306c {[0m
+            name = [31m[1;31m"[0m[31mOperationRequest[1;31m"[0m[31m[0m,
+            children = [
+              [1;34m#(Element:0x23904d4 {[0m
+                name = [31m[1;31m"[0m[31mHTTPHeaders[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x238bc54 {[0m
+                    name = [31m[1;31m"[0m[31mHeader[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x238b498 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mUserAgent[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x238b484 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mRuby[1;31m"[0m[31m[0m })]
+                    })]
+                }),
+              [1;34m#(Element:0x1b33480 {[0m
+                name = [31m[1;31m"[0m[31mRequestId[1;31m"[0m[31m[0m,
+                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m71e7fc26-06cd-499f-9f48-93f996be1a43[1;31m"[0m[31m[0m)]
+                }),
+              [1;34m#(Element:0x1af2250 {[0m
+                name = [31m[1;31m"[0m[31mArguments[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x1ae6b6c {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x1ae60a4 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAWSAccessKeyId[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x1ae6090 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAKIAIUVKMNUULCTVQUUA[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x1a705c0 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x1a6b8a4 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAssociateTag[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x1a6b890 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mmealthy0b-22[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x1a18c44 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x1a0db78 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mKeywords[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x1a0db50 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mruby[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x19a09b0 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x1998418 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mOperation[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x1998404 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mItemSearch[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x192e5e0 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x191d59c {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mResponseGroup[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x191d588 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mMedium[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x18b125c {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x18ad7ec {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mSearchIndex[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x18ad7c4 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAll[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x184f278 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x1847208 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mService[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x18471f4 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mAWSECommerceService[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x17d1044 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x17caa8c {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mTimestamp[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x17caa78 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m2015-09-05T14:40:18Z[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x123f8b0 {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x12302e8 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mVersion[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x12302c0 {[0m name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m2011-08-01[1;31m"[0m[31m[0m })]
+                    }),
+                  [1;34m#(Element:0x115614c {[0m
+                    name = [31m[1;31m"[0m[31mArgument[1;31m"[0m[31m[0m,
+                    attributes = [
+                      [1;34m#(Attr:0x114610c {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mSignature[1;31m"[0m[31m[0m }),
+                      [1;34m#(Attr:0x11460e4 {[0m
+                        name = [31m[1;31m"[0m[31mValue[1;31m"[0m[31m[0m,
+                        value = [31m[1;31m"[0m[31m1pQsheoUyCKb5BUOS82HdYm4RtcsaIC42AuIeK+xlLk=[1;31m"[0m[31m[0m
+                        })]
+                    })]
+                }),
+              [1;34m#(Element:0x105fa18 {[0m
+                name = [31m[1;31m"[0m[31mRequestProcessingTime[1;31m"[0m[31m[0m,
+                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0.2207064040000000[1;31m"[0m[31m[0m)]
+                })]
+            }),
+          [1;34m#(Element:0xe2becc {[0m
+            name = [31m[1;31m"[0m[31mItems[1;31m"[0m[31m[0m,
+            children = [
+              [1;34m#(Element:0xde1e44 {[0m
+                name = [31m[1;31m"[0m[31mRequest[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0xdd0220 {[0m name = [31m[1;31m"[0m[31mIsValid[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mTrue[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0xc2b2a8 {[0m
+                    name = [31m[1;31m"[0m[31mItemSearchRequest[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0xbb40b8 {[0m name = [31m[1;31m"[0m[31mKeywords[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mruby[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0xa974f0 {[0m name = [31m[1;31m"[0m[31mResponseGroup[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mMedium[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2b931f4 {[0m name = [31m[1;31m"[0m[31mSearchIndex[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll[1;31m"[0m[31m[0m)] })]
+                    })]
+                }),
+              [1;34m#(Element:0x2b7d610 {[0m name = [31m[1;31m"[0m[31mTotalResults[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m64017[1;31m"[0m[31m[0m)] }),
+              [1;34m#(Element:0x2b79218 {[0m name = [31m[1;31m"[0m[31mTotalPages[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m6402[1;31m"[0m[31m[0m)] }),
+              [1;34m#(Element:0x2b3f798 {[0m
+                name = [31m[1;31m"[0m[31mMoreSearchResultsUrl[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/redirect.html?linkCode=xm2&SubscriptionId=AKIAIUVKMNUULCTVQUUA&location=http%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3Druby%26url%3Dsearch-alias%253Daws-amazon-aps&tag=mealthy0b-22&creative=5143&camp=2025[1;31m"[0m[31m[0m)]
+                }),
+              [1;34m#(Element:0x2b36404 {[0m
+                name = [31m[1;31m"[0m[31mItem[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x2b33dd0 {[0m name = [31m[1;31m"[0m[31mASIN[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m4797372273[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0x2b2e9fc {[0m
+                    name = [31m[1;31m"[0m[31mDetailPageURL[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/%E3%81%9F%E3%81%AE%E3%81%97%E3%81%84Ruby-%E7%AC%AC4%E7%89%88-%E9%AB%98%E6%A9%8B-%E5%BE%81%E7%BE%A9/dp/4797372273%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4797372273[1;31m"[0m[31m[0m)]
+                    }),
+                  [1;34m#(Element:0x2b27800 {[0m
+                    name = [31m[1;31m"[0m[31mItemLinks[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2b24fb0 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2b22648 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAdd To Wishlist[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2b09e40 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4797372273%26SubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4797372273[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2afa6e8 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2aefa68 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mTell A Friend[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2adf348 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/pdp/taf/4797372273%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4797372273[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2a98f10 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2a8b478 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll Customer Reviews[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2a720b8 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/review/product/4797372273%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4797372273[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2a5330c {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2a48dbc {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll Offers[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2a30884 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/offer-listing/4797372273%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4797372273[1;31m"[0m[31m[0m)]
+                            })]
+                        })]
+                    }),
+                  [1;34m#(Element:0x2a106c4 {[0m name = [31m[1;31m"[0m[31mSalesRank[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m21041[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0x29fc82c {[0m
+                    name = [31m[1;31m"[0m[31mSmallImage[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x29ec6d4 {[0m
+                        name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x29d2568 {[0m
+                        name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x29ce92c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x29a5d38 {[0m
+                        name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x29a4334 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m53[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x29753e0 {[0m
+                    name = [31m[1;31m"[0m[31mMediumImage[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2969b6c {[0m
+                        name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL._SL160_.jpg[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x2952430 {[0m
+                        name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x294cecc {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m160[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x2926128 {[0m
+                        name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x292073c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m113[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x28f2d8c {[0m
+                    name = [31m[1;31m"[0m[31mLargeImage[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x28e9188 {[0m
+                        name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL.jpg[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x28d4170 {[0m
+                        name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x28ce3ec {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m500[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x28a4704 {[0m
+                        name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x289eee4 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m353[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x286cf34 {[0m
+                    name = [31m[1;31m"[0m[31mImageSets[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x286282c {[0m
+                        name = [31m[1;31m"[0m[31mImageSet[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x285fa8c {[0m name = [31m[1;31m"[0m[31mCategory[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mvariant[1;31m"[0m[31m[0m })],
+                        children = [
+                          [1;34m#(Element:0x283d9c8 {[0m
+                            name = [31m[1;31m"[0m[31mSwatchImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x2836088 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51n1StoOH0L._SL30_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x22f60b4 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x28136a0 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m30[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x27e38b0 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x27ddd5c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m21[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x27ad97c {[0m
+                            name = [31m[1;31m"[0m[31mSmallImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x27a1320 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51n1StoOH0L._SL75_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x27843d8 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x277e758 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x274bb78 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2745d68 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m53[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x2717f08 {[0m
+                            name = [31m[1;31m"[0m[31mThumbnailImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x270d774 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51n1StoOH0L._SL75_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x26e2718 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x26daa2c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x269696c {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x268ef50 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m53[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x2639a00 {[0m
+                            name = [31m[1;31m"[0m[31mTinyImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x2625bb8 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51n1StoOH0L._SL110_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2600264 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x25f69d0 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m110[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x25a5b84 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x25a40b8 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m78[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x255d104 {[0m
+                            name = [31m[1;31m"[0m[31mMediumImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x254b378 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51n1StoOH0L._SL160_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x251f0d4 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x251587c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m160[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x24ca8a4 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x24c2e74 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m113[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x2471f74 {[0m
+                            name = [31m[1;31m"[0m[31mLargeImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x24618a4 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51n1StoOH0L.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x24335e4 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x242b4d4 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m500[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x23eff74 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x23eed04 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m353[1;31m"[0m[31m[0m)]
+                                })]
+                            })]
+                        }),
+                      [1;34m#(Element:0x23c86a4 {[0m
+                        name = [31m[1;31m"[0m[31mImageSet[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x23c173c {[0m name = [31m[1;31m"[0m[31mCategory[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mprimary[1;31m"[0m[31m[0m })],
+                        children = [
+                          [1;34m#(Element:0x23b6094 {[0m
+                            name = [31m[1;31m"[0m[31mSwatchImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x239ce14 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL._SL30_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2392b30 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2391bcc {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m30[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x237a0a8 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x18b2c88 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m21[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x1afa3c4 {[0m
+                            name = [31m[1;31m"[0m[31mSmallImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x1aed610 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x1ad4f98 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x1acd4b4 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x1a6501c {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x1a611c4 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m53[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x19fc634 {[0m
+                            name = [31m[1;31m"[0m[31mThumbnailImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x19dcfc8 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x19a35ac {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x19a0a8c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x1946fa0 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x193fe44 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m53[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x18d3b40 {[0m
+                            name = [31m[1;31m"[0m[31mTinyImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x18b4628 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL._SL110_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x188f094 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x1879e38 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m110[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x18239ac {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x181cecc {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m78[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x179b7b4 {[0m
+                            name = [31m[1;31m"[0m[31mMediumImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x178e08c {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL._SL160_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x12365a8 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x1221b80 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m160[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x115b624 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x114bd00 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m113[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x10a8ad8 {[0m
+                            name = [31m[1;31m"[0m[31mLargeImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x103dd50 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/41WMC2%2B5rfL.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0xe2b9f4 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0xe18340 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m500[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0xc16e5c {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0xc083c0 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m353[1;31m"[0m[31m[0m)]
+                                })]
+                            })]
+                        })]
+                    }),
+                  [1;34m#(Element:0x2b92498 {[0m
+                    name = [31m[1;31m"[0m[31mItemAttributes[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2b8bb34 {[0m name = [31m[1;31m"[0m[31mAuthor[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m高橋 征義[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2b7dde0 {[0m name = [31m[1;31m"[0m[31mAuthor[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m後藤 裕蔵[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2b6df08 {[0m name = [31m[1;31m"[0m[31mBinding[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m単行本[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2b3e460 {[0m
+                        name = [31m[1;31m"[0m[31mCreator[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x2b3a298 {[0m name = [31m[1;31m"[0m[31mRole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m監修[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mまつもと ゆきひろ[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x2b301e4 {[0m name = [31m[1;31m"[0m[31mEAN[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m9784797372274[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2b2b61c {[0m
+                        name = [31m[1;31m"[0m[31mEANList[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2b27c4c {[0m
+                            name = [31m[1;31m"[0m[31mEANListElement[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m9784797372274[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2b1aa60 {[0m name = [31m[1;31m"[0m[31mEdition[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m第4[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2b0e378 {[0m name = [31m[1;31m"[0m[31mIsAdultProduct[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2b00188 {[0m name = [31m[1;31m"[0m[31mISBN[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m4797372273[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2aee118 {[0m name = [31m[1;31m"[0m[31mIsEligibleForTradeIn[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2ade3f8 {[0m name = [31m[1;31m"[0m[31mLabel[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mソフトバンククリエイティブ[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2a99154 {[0m
+                        name = [31m[1;31m"[0m[31mLanguages[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2a876e8 {[0m
+                            name = [31m[1;31m"[0m[31mLanguage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x2a7ce14 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m日本語[1;31m"[0m[31m[0m)] }),
+                              [1;34m#(Element:0x2a68374 {[0m name = [31m[1;31m"[0m[31mType[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mPublished[1;31m"[0m[31m[0m)] })]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2a3fc58 {[0m
+                        name = [31m[1;31m"[0m[31mListPrice[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2a35a00 {[0m name = [31m[1;31m"[0m[31mAmount[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m2808[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x2a21618 {[0m name = [31m[1;31m"[0m[31mCurrencyCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mJPY[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x2a0a788 {[0m
+                            name = [31m[1;31m"[0m[31mFormattedPrice[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m￥ 2,808[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x29e7774 {[0m
+                        name = [31m[1;31m"[0m[31mManufacturer[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mソフトバンククリエイティブ[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x29cfe94 {[0m name = [31m[1;31m"[0m[31mNumberOfPages[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m520[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x29bbe6c {[0m
+                        name = [31m[1;31m"[0m[31mPackageDimensions[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x29af784 {[0m
+                            name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                            attributes = [
+                              [1;34m#(Attr:0x29ab8c8 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhundredths-inches[1;31m"[0m[31m[0m })],
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m126[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x297fcb4 {[0m
+                            name = [31m[1;31m"[0m[31mLength[1;31m"[0m[31m[0m,
+                            attributes = [
+                              [1;34m#(Attr:0x2979aa8 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhundredths-inches[1;31m"[0m[31m[0m })],
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m835[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2953010 {[0m
+                            name = [31m[1;31m"[0m[31mWeight[1;31m"[0m[31m[0m,
+                            attributes = [
+                              [1;34m#(Attr:0x294da98 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhundredths-pounds[1;31m"[0m[31m[0m })],
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m154[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2926a10 {[0m
+                            name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                            attributes = [
+                              [1;34m#(Attr:0x2921358 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhundredths-inches[1;31m"[0m[31m[0m })],
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m591[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x28f34e4 {[0m name = [31m[1;31m"[0m[31mProductGroup[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mBook[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x28e2b80 {[0m
+                        name = [31m[1;31m"[0m[31mProductTypeName[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mABIS_BOOK[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x28c5a44 {[0m
+                        name = [31m[1;31m"[0m[31mPublicationDate[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m2013-06-04[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x28b007c {[0m
+                        name = [31m[1;31m"[0m[31mPublisher[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mソフトバンククリエイティブ[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x289b514 {[0m name = [31m[1;31m"[0m[31mStudio[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mソフトバンククリエイティブ[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2882168 {[0m name = [31m[1;31m"[0m[31mTitle[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mたのしいRuby 第4版[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x28630ec {[0m
+                        name = [31m[1;31m"[0m[31mTradeInValue[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x28512c0 {[0m name = [31m[1;31m"[0m[31mAmount[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m1050[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x283db80 {[0m name = [31m[1;31m"[0m[31mCurrencyCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mJPY[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x2826534 {[0m
+                            name = [31m[1;31m"[0m[31mFormattedPrice[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m￥ 1,050[1;31m"[0m[31m[0m)]
+                            })]
+                        })]
+                    }),
+                  [1;34m#(Element:0x27fcc48 {[0m
+                    name = [31m[1;31m"[0m[31mOfferSummary[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x27f3044 {[0m
+                        name = [31m[1;31m"[0m[31mLowestNewPrice[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x27e3838 {[0m name = [31m[1;31m"[0m[31mAmount[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m2808[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x27ceb7c {[0m name = [31m[1;31m"[0m[31mCurrencyCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mJPY[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x27b0cd0 {[0m
+                            name = [31m[1;31m"[0m[31mFormattedPrice[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m￥ 2,808[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x278b584 {[0m
+                        name = [31m[1;31m"[0m[31mLowestUsedPrice[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x277eec4 {[0m name = [31m[1;31m"[0m[31mAmount[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m2185[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x2768a34 {[0m name = [31m[1;31m"[0m[31mCurrencyCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mJPY[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x274ad18 {[0m
+                            name = [31m[1;31m"[0m[31mFormattedPrice[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m￥ 2,185[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x27253d8 {[0m name = [31m[1;31m"[0m[31mTotalNew[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x2711c20 {[0m name = [31m[1;31m"[0m[31mTotalUsed[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m9[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x26ebc00 {[0m name = [31m[1;31m"[0m[31mTotalCollectible[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x26c1fb8 {[0m name = [31m[1;31m"[0m[31mTotalRefurbished[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m)] })]
+                    })]
+                }),
+              [1;34m#(Element:0x2685b94 {[0m
+                name = [31m[1;31m"[0m[31mItem[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x2673354 {[0m name = [31m[1;31m"[0m[31mASIN[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m4774175676[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0x26530e0 {[0m
+                    name = [31m[1;31m"[0m[31mDetailPageURL[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/Ruby%E6%8A%80%E8%A1%93%E8%80%85%E8%AA%8D%E5%AE%9A%E8%A9%A6%E9%A8%93%E5%90%88%E6%A0%BC%E6%95%99%E6%9C%AC-Silver-Gold%E5%AF%BE%E5%BF%9C-Ruby%E5%85%AC%E5%BC%8F%E8%B3%87%E6%A0%BC%E6%95%99%E7%A7%91%E6%9B%B8-%E5%A2%97%E4%BA%95-%E9%9B%84%E4%B8%80%E9%83%8E/dp/4774175676%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4774175676[1;31m"[0m[31m[0m)]
+                    }),
+                  [1;34m#(Element:0x261d508 {[0m
+                    name = [31m[1;31m"[0m[31mItemLinks[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2612298 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x25f73d0 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAdd To Wishlist[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x25ca4c0 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4774175676%26SubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4774175676[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2594c30 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2586c0c {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mTell A Friend[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x255c9fc {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/pdp/taf/4774175676%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4774175676[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2529d18 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2515e08 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll Customer Reviews[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x24e5014 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/review/product/4774175676%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4774175676[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x24afbd0 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x249db88 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll Offers[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2471998 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/offer-listing/4774175676%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4774175676[1;31m"[0m[31m[0m)]
+                            })]
+                        })]
+                    }),
+                  [1;34m#(Element:0x243cdec {[0m name = [31m[1;31m"[0m[31mSalesRank[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m79712[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0x2419ae0 {[0m
+                    name = [31m[1;31m"[0m[31mSmallImage[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2400fe0 {[0m
+                        name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x23e00d8 {[0m
+                        name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x23d5084 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x23c146c {[0m
+                        name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x23bbcc4 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m52[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x2399160 {[0m
+                    name = [31m[1;31m"[0m[31mMediumImage[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2394714 {[0m
+                        name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL._SL160_.jpg[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x238b998 {[0m
+                        name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x238aa70 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m160[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x185c860 {[0m
+                        name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x18570b8 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m111[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x1ae544c {[0m
+                    name = [31m[1;31m"[0m[31mLargeImage[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x1adb258 {[0m
+                        name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL.jpg[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x1a98b38 {[0m
+                        name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x1a75bec {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m500[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x1a46a04 {[0m
+                        name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x1a400a0 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m348[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x19c87d0 {[0m
+                    name = [31m[1;31m"[0m[31mImageSets[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x19b417c {[0m
+                        name = [31m[1;31m"[0m[31mImageSet[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x19ae7e0 {[0m name = [31m[1;31m"[0m[31mCategory[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mvariant[1;31m"[0m[31m[0m })],
+                        children = [
+                          [1;34m#(Element:0x197321c {[0m
+                            name = [31m[1;31m"[0m[31mSwatchImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x195a7bc {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/418qabnKqCL._SL30_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x190b16c {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x19081c4 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m30[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x18ac4a0 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x18a9840 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m21[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x1847be0 {[0m
+                            name = [31m[1;31m"[0m[31mSmallImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x182d9fc {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/418qabnKqCL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x17eb14c {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x17d912c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x177b568 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x1765f74 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m54[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x119e2d0 {[0m
+                            name = [31m[1;31m"[0m[31mThumbnailImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x1172ce8 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/418qabnKqCL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x111bba0 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x11132fc {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0xe9005c {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0xe721d8 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m54[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0xc70ec0 {[0m
+                            name = [31m[1;31m"[0m[31mTinyImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0xc2a3bc {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/418qabnKqCL._SL110_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0xb8e00c {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0xb78860 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m110[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2b8baa8 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2b8ab6c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m79[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x2b6cce8 {[0m
+                            name = [31m[1;31m"[0m[31mMediumImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x2b46ee4 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/418qabnKqCL._SL160_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2b37f5c {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2b36e90 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m160[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2b2cc60 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2b2bcac {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m114[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x2b1b500 {[0m
+                            name = [31m[1;31m"[0m[31mLargeImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x2b14a84 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/418qabnKqCL.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2b0668c {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2b0109c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m500[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2ae0af4 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2adf67c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m357[1;31m"[0m[31m[0m)]
+                                })]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2a86004 {[0m
+                        name = [31m[1;31m"[0m[31mImageSet[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x2a8058c {[0m name = [31m[1;31m"[0m[31mCategory[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mprimary[1;31m"[0m[31m[0m })],
+                        children = [
+                          [1;34m#(Element:0x2a621b8 {[0m
+                            name = [31m[1;31m"[0m[31mSwatchImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x2a58f28 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL._SL30_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2a3b5cc {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2a35f3c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m30[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2a101d8 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2a0a4cc {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m21[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x29dcf68 {[0m
+                            name = [31m[1;31m"[0m[31mSmallImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x29d2978 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x29b7718 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x29b3e10 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x298baa0 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x298a45c {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m52[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x2957d04 {[0m
+                            name = [31m[1;31m"[0m[31mThumbnailImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x29523cc {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2936b04 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2931618 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2907188 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x29038a8 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m52[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x28d9788 {[0m
+                            name = [31m[1;31m"[0m[31mTinyImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x28cfb84 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL._SL110_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x28b4a78 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x28b10f8 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m110[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2883f7c {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x28827d0 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m77[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x284de54 {[0m
+                            name = [31m[1;31m"[0m[31mMediumImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x2843fd0 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL._SL160_.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2827e34 {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x2826084 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m160[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x27f8d78 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x27f3634 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m111[1;31m"[0m[31m[0m)]
+                                })]
+                            }),
+                          [1;34m#(Element:0x27c21b0 {[0m
+                            name = [31m[1;31m"[0m[31mLargeImage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x27b1c84 {[0m
+                                name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                                children = [
+                                  [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51Zdynh23PL.jpg[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x2794d3c {[0m
+                                name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x278f1fc {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m500[1;31m"[0m[31m[0m)]
+                                }),
+                              [1;34m#(Element:0x275df44 {[0m
+                                name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                                attributes = [ [1;34m#(Attr:0x275c518 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                                children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m348[1;31m"[0m[31m[0m)]
+                                })]
+                            })]
+                        })]
+                    }),
+                  [1;34m#(Element:0x27217ec {[0m
+                    name = [31m[1;31m"[0m[31mItemAttributes[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x27171c0 {[0m name = [31m[1;31m"[0m[31mAuthor[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m増井 雄一郎[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x26fa55c {[0m name = [31m[1;31m"[0m[31mAuthor[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m小川 伸一郎[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x26d0900 {[0m
+                        name = [31m[1;31m"[0m[31mAuthor[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m株式会社 日立ソリューションズ 牧 俊男[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x269f184 {[0m name = [31m[1;31m"[0m[31mBinding[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m単行本（ソフトカバー）[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x267c724 {[0m
+                        name = [31m[1;31m"[0m[31mCreator[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x266ac90 {[0m name = [31m[1;31m"[0m[31mRole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m監修[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m一般財団法人Rubyアソシエーション 前田 修吾[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x26246a0 {[0m
+                        name = [31m[1;31m"[0m[31mCreator[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x261ce00 {[0m name = [31m[1;31m"[0m[31mRole[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31m監修[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mCTCテクノロジー株式会社[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x25d30c0 {[0m name = [31m[1;31m"[0m[31mEAN[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m9784774175676[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x25aed4c {[0m
+                        name = [31m[1;31m"[0m[31mEANList[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2595054 {[0m
+                            name = [31m[1;31m"[0m[31mEANListElement[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m9784774175676[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x25657c8 {[0m name = [31m[1;31m"[0m[31mIsAdultProduct[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x254a7e8 {[0m name = [31m[1;31m"[0m[31mISBN[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m4774175676[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x251f6c4 {[0m name = [31m[1;31m"[0m[31mLabel[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m技術評論社[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x24f8344 {[0m
+                        name = [31m[1;31m"[0m[31mLanguages[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x24d55d8 {[0m
+                            name = [31m[1;31m"[0m[31mLanguage[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Element:0x24c3040 {[0m name = [31m[1;31m"[0m[31mName[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m日本語[1;31m"[0m[31m[0m)] }),
+                              [1;34m#(Element:0x249cdc8 {[0m name = [31m[1;31m"[0m[31mType[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mPublished[1;31m"[0m[31m[0m)] })]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2460be8 {[0m
+                        name = [31m[1;31m"[0m[31mListPrice[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x244c918 {[0m name = [31m[1;31m"[0m[31mAmount[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m3888[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x242a584 {[0m name = [31m[1;31m"[0m[31mCurrencyCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mJPY[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x2400c84 {[0m
+                            name = [31m[1;31m"[0m[31mFormattedPrice[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m￥ 3,888[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x23d3ef0 {[0m name = [31m[1;31m"[0m[31mManufacturer[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m技術評論社[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x23cba84 {[0m name = [31m[1;31m"[0m[31mNumberOfPages[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m544[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x23bbf44 {[0m
+                        name = [31m[1;31m"[0m[31mPackageDimensions[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x23b8268 {[0m
+                            name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                            attributes = [
+                              [1;34m#(Attr:0x23b7020 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhundredths-inches[1;31m"[0m[31m[0m })],
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m102[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x23925b8 {[0m
+                            name = [31m[1;31m"[0m[31mLength[1;31m"[0m[31m[0m,
+                            attributes = [
+                              [1;34m#(Attr:0x2391618 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhundredths-inches[1;31m"[0m[31m[0m })],
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m827[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x18b3854 {[0m
+                            name = [31m[1;31m"[0m[31mWeight[1;31m"[0m[31m[0m,
+                            attributes = [
+                              [1;34m#(Attr:0x18b2378 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhundredths-pounds[1;31m"[0m[31m[0m })],
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m115[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x1afacfc {[0m
+                            name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                            attributes = [
+                              [1;34m#(Attr:0x1af8628 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mhundredths-inches[1;31m"[0m[31m[0m })],
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m583[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x1ab4dec {[0m name = [31m[1;31m"[0m[31mProductGroup[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mBook[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x1a727d0 {[0m
+                        name = [31m[1;31m"[0m[31mProductTypeName[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mABIS_BOOK[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x1a582cc {[0m
+                        name = [31m[1;31m"[0m[31mPublicationDate[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m2015-08-21[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x1a18ec4 {[0m name = [31m[1;31m"[0m[31mPublisher[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m技術評論社[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x19e0240 {[0m name = [31m[1;31m"[0m[31mStudio[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m技術評論社[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x19abeb4 {[0m
+                        name = [31m[1;31m"[0m[31mTitle[1;31m"[0m[31m[0m,
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mRuby技術者認定試験合格教本 Silver/Gold対応　Ruby公式資格教科書[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x1972ac4 {[0m
+                    name = [31m[1;31m"[0m[31mOfferSummary[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x194cd88 {[0m
+                        name = [31m[1;31m"[0m[31mLowestNewPrice[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x192fc88 {[0m name = [31m[1;31m"[0m[31mAmount[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m3888[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x19053c0 {[0m name = [31m[1;31m"[0m[31mCurrencyCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mJPY[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x18d01fc {[0m
+                            name = [31m[1;31m"[0m[31mFormattedPrice[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m￥ 3,888[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x188ebd0 {[0m
+                        name = [31m[1;31m"[0m[31mLowestUsedPrice[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x1862c60 {[0m name = [31m[1;31m"[0m[31mAmount[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m3050[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x184609c {[0m name = [31m[1;31m"[0m[31mCurrencyCode[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mJPY[1;31m"[0m[31m[0m)] }),
+                          [1;34m#(Element:0x1809890 {[0m
+                            name = [31m[1;31m"[0m[31mFormattedPrice[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m￥ 3,050[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x17a3d38 {[0m name = [31m[1;31m"[0m[31mTotalNew[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x178ccf0 {[0m name = [31m[1;31m"[0m[31mTotalUsed[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m2[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x1236508 {[0m name = [31m[1;31m"[0m[31mTotalCollectible[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m)] }),
+                      [1;34m#(Element:0x11b456c {[0m name = [31m[1;31m"[0m[31mTotalRefurbished[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m)] })]
+                    })]
+                }),
+              [1;34m#(Element:0x113440c {[0m
+                name = [31m[1;31m"[0m[31mItem[1;31m"[0m[31m[0m,
+                children = [
+                  [1;34m#(Element:0x1116254 {[0m name = [31m[1;31m"[0m[31mASIN[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m4774164100[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0x10d68ac {[0m
+                    name = [31m[1;31m"[0m[31mDetailPageURL[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/Ruby-Rails-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E5%B1%B1%E7%94%B0-%E7%A5%A5%E5%AF%9B/dp/4774164100%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4774164100[1;31m"[0m[31m[0m)]
+                    }),
+                  [1;34m#(Element:0xe6373c {[0m
+                    name = [31m[1;31m"[0m[31mItemLinks[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0xe2e028 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0xddf02c {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAdd To Wishlist[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0xc2f358 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/registry/wishlist/add-item.html%3Fasin.0%3D4774164100%26SubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4774164100[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0xb8f6a0 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0xa91334 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mTell A Friend[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2b8d3f8 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/pdp/taf/4774164100%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4774164100[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2b7d700 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2b7af78 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll Customer Reviews[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2b47614 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/review/product/4774164100%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4774164100[1;31m"[0m[31m[0m)]
+                            })]
+                        }),
+                      [1;34m#(Element:0x2b37cc8 {[0m
+                        name = [31m[1;31m"[0m[31mItemLink[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Element:0x2b35590 {[0m
+                            name = [31m[1;31m"[0m[31mDescription[1;31m"[0m[31m[0m,
+                            children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31mAll Offers[1;31m"[0m[31m[0m)]
+                            }),
+                          [1;34m#(Element:0x2b2e880 {[0m
+                            name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                            children = [
+                              [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://www.amazon.co.jp/gp/offer-listing/4774164100%3FSubscriptionId%3DAKIAIUVKMNUULCTVQUUA%26tag%3Dmealthy0b-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D5143%26creativeASIN%3D4774164100[1;31m"[0m[31m[0m)]
+                            })]
+                        })]
+                    }),
+                  [1;34m#(Element:0x2b26fa4 {[0m name = [31m[1;31m"[0m[31mSalesRank[1;31m"[0m[31m[0m, children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m18243[1;31m"[0m[31m[0m)] }),
+                  [1;34m#(Element:0x2b22990 {[0m
+                    name = [31m[1;31m"[0m[31mSmallImage[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2b14db8 {[0m
+                        name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51lycs3O%2BrL._SL75_.jpg[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x2b068e4 {[0m
+                        name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x2b012e0 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m75[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x2ae0dec {[0m
+                        name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x2adf8c0 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m56[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x2a87a80 {[0m
+                    name = [31m[1;31m"[0m[31mMediumImage[1;31m"[0m[31m[0m,
+                    children = [
+                      [1;34m#(Element:0x2a7d5f8 {[0m
+                        name = [31m[1;31m"[0m[31mURL[1;31m"[0m[31m[0m,
+                        children = [
+                          [1;34m#(Text [0m[31m[1;31m"[0m[31mhttp://ecx.images-amazon.com/images/I/51lycs3O%2BrL._SL160_.jpg[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x2a626cc {[0m
+                        name = [31m[1;31m"[0m[31mHeight[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x2a5cce0 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m160[1;31m"[0m[31m[0m)]
+                        }),
+                      [1;34m#(Element:0x2a34538 {[0m
+                        name = [31m[1;31m"[0m[31mWidth[1;31m"[0m[31m[0m,
+                        attributes = [ [1;34m#(Attr:0x2a30b68 {[0m name = [31m[1;31m"[0m[31mUnits[1;31m"[0m[31m[0m, value = [31m[1;31m"[0m[31mpixels[1;31m"[0m[31m[0m })],
+                        children = [ [1;34m#(Text [0m[31m[1;31m"[0m[31m120[1;31m"[0m[31m[0m)]
+                        })]
+                    }),
+                  [1;34m#(Element:0x2a01818 {[0m
+                    name = [31m[1;31m"[0m[31mLargeImage[1;31m"[0m[31m[0m,
+                    children = [
+                      
