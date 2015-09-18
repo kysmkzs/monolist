@@ -1,3 +1,11 @@
+<% content_for :head do %>
+  <title>
+    <%= user.name %> - Monolist
+  </title>
+  <meta name="description" content="<%= user.name %>のモノページ。欲しいモノ、持ってるモノを表示しています。">
+  <meta name="keywords" content="Monolist,<%= user.name %>">
+<% end %>
+
 <div class="user-profile">
   <div class="icon">
     <%= gravatar_for user, size: 100 %>
