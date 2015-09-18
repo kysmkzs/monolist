@@ -34,7 +34,7 @@ class User < ActiveRecord::Base
 
   # アイテムをhaveする
   def have(item)
-    haves.creat(item_id: item.id)
+    haves.find_or_create_by(item_id: item.id)
   end
 
   # アイテムをunhaveする
@@ -49,7 +49,7 @@ class User < ActiveRecord::Base
 
   # アイテムをwantする
   def want(item)
-    wants.creat(item_id: item.id)
+    wants.find_or_create_by(item_id: item.id)
   end
 
   # アイテムをunwantする
