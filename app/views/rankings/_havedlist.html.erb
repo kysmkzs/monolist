@@ -7,9 +7,9 @@
           <div class="img-wrap">
             <% if item.small_image.present? %>
               <%= image_tag(item.small_image , alt: item.title) %>
-              <span class="detail"><%= item.title %></span> [<%= item.have_users.count %>]
+              <span class="detail"><%= item.title %></span> ｜<%= item.have_users.count %> haved
             <% else %>
-              <%= image_tag("no-image.png" , alt: item.title) %> [<%= item.have_users.count %>]
+              <%= image_tag("no-image.png" , alt: item.title) %> <%= item.have_users.count %> haved
             <% end %>
           </div>
         </div>
